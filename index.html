@@ -21,14 +21,10 @@
     >
       <!--Assets Management-->
       <a-assets>
+        <a-asset-item 
+          id="e-circuit" src="./assets/electric-circuit/source/archive/sketch.gltf"></a-asset-item>
         <a-asset-item
-          id="e-circuit"
-          src="./assets/electric-circuit/source/archive/sketch.gltf"
-        ></a-asset-item>
-        <a-asset-item
-          id="samba"
-          src="./assets/samba_dancing_boris/scene.gltf"
-        ></a-asset-item>
+          id="samba" src="./assets/samba_dancing_boris/scene.gltf"></a-asset-item>
       </a-assets>
 
       <!--GLTF Models-->
@@ -37,9 +33,9 @@
       <a-marker preset="hiro">
         <a-entity
           id="model"
-          position="0.1 0.1 0"
-          rotation="-90 0 0"
-          scale="10 5 5"
+          position="0 0.35 0"
+          rotation="0 45 0"
+          scale="1.5 1.5 1.5"
           gltf-model="#e-circuit"
           animation-mixer
         ></a-entity>
